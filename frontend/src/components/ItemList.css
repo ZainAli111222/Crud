@@ -1,0 +1,82 @@
+/* ItemList.css */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ccc; /* Corrected 'cap' to 'px' */
+    border-radius: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .create-button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #22b82e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .create-button:hover {
+    background-color: #1fc227;
+  }
+  
+  .item-table {
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .item-table th, .item-table td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .item-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .even-row {
+    background-color: #f2f2f2;
+  }
+  
+  .odd-row {
+    background-color: #ffffff;
+  }
+  
+  .item-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .action-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Ensure no underline */
+    display: inline-block; /* Ensure inline block for both button and link */
+  }
+  
+  .action-button:hover {
+    background-color: #1fc227;
+  }
+  
+  .action-link {
+    text-decoration: none; /* Remove underline */
+  }
+  
